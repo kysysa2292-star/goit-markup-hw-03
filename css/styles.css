@@ -8,7 +8,7 @@ body {
 /* Решта коду */
 header {
     display: block;
-    border-bottom: 1px solid var(--cornflower);
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -35,6 +35,7 @@ ul {
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -48,7 +49,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    padding-top: 24px;
 }
 
 .logo .plan-name {
@@ -57,6 +57,8 @@ ul {
 
 .logo .plan-name-footer {
     color: #F4F4FD;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .nav-page {
@@ -66,9 +68,7 @@ ul {
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 0;
-    padding-left: 0;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding: 24px 0 24px;
 }
 
 .nav-page .link {
@@ -136,7 +136,7 @@ ul {
 }
 
 .button {
-    display: flex;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -153,10 +153,10 @@ ul {
     padding-top: 16px;
     padding-bottom: 16px;
     min-width: 169px;
-    min-height: 56px;
+    height: 56px;
     flex-direction: row;
     gap: 10px;
-    border: 1px solid transparent;
+    border: none;
 }
 
 .button:focus {
@@ -193,6 +193,10 @@ ul {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.title-features {
+    margin-bottom: 8px;
 }
 
 .text-box {
@@ -244,7 +248,7 @@ p {
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 73px;
+    margin-bottom: 72px;
 }
 
 .team {
@@ -264,7 +268,6 @@ p {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
 }
 
 .card-content {
@@ -272,7 +275,6 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 32px;
 }
 
 .card-text {
@@ -280,12 +282,28 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
+    padding: 32px 0;
+}
+
+.title-team {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.text-team {
+    text-align: center;
+    margin: 0;
 }
 
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.section-title-portfolio {
+    margin-bottom: 72px;
+    margin-top: 0;
 }
 
 .portfolio-items {
@@ -310,12 +328,17 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
+    border: 1px solid #e7e9fc;
     border-bottom: 1px solid var(--cornflower);
     border-left: 1px solid var(--cornflower);
     border-right: 1px solid var(--cornflower);
     width: 360px;
     padding: 32px 16px;
+}
+
+.title-card {
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .footer {
@@ -331,5 +354,5 @@ p {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     width: 264px;
-    margin-bottom: 0;
+    margin: 0;
 }
