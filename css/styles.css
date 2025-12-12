@@ -57,8 +57,6 @@ ul {
 
 .logo .plan-name-footer {
     color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .nav-page {
@@ -68,7 +66,6 @@ ul {
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 24px 0 24px;
 }
 
 .nav-page .link {
@@ -78,6 +75,7 @@ ul {
     color: #2E2F42;
     line-height: 1.5;
     border: none;
+    padding: 24px 0 24px;
 }
 
 .nav-page .link:hover {
@@ -197,6 +195,7 @@ ul {
 
 .title-features {
     margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .text-box {
@@ -329,10 +328,8 @@ p {
     justify-content: center;
     flex-direction: column;
     border: 1px solid #e7e9fc;
-    border-bottom: 1px solid var(--cornflower);
-    border-left: 1px solid var(--cornflower);
-    border-right: 1px solid var(--cornflower);
     width: 360px;
+    border-top: none;
     padding: 32px 16px;
 }
 
@@ -345,6 +342,11 @@ p {
     background-color: #2E2F42;
     padding-bottom: 100px;
     padding-top: 100px;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
