@@ -26,6 +26,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
@@ -66,7 +70,7 @@ ul {
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 24px 0 24px;
+    padding-left: 0;
 }
 
 .nav-page .link {
@@ -75,7 +79,7 @@ ul {
     color: #2E2F42;
     line-height: 1.5;
     border: none;
-    
+    padding: 24px 0 24px;
 }
 
 .nav-page .link:hover {
@@ -96,7 +100,7 @@ ul {
     font-style: normal;
     gap: 40px;
     padding: 0;
-    margin: 0;
+    margin: 24px 0 24px;
 }
 
 .address .link {
